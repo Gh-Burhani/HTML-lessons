@@ -1,0 +1,196 @@
+.Great{
+   float: center;
+}
+.Student, .Great, .Mustafa{
+   float: none;
+}
+.a{
+   height: 400px;
+   width: 400px;
+   float: initial;
+   top: 0px;
+   right: 5px;
+   left: 5px;
+   padding: 10px;
+   margin: 10px;
+
+}
+.Student{
+   height: 400px;
+   width: 400px;
+   float: left;
+   top: 0px;
+   right: 5px;
+   left: 5px;
+   padding: 10px;
+   margin: 10px;
+   
+}
+.Mustafa{
+   bottom: 0px;
+   height: 400px;
+   width: 400px;
+   float: right;
+   top: 0px;
+   right: 5px;
+   left: 5px;
+   padding: 10px;
+   margin: 10px;
+
+}
+.TheNameofmytable{
+   position: relative;
+   display: table-footer-group;
+}
+ .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.4cm;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+    
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 4px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.content-table th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content-table td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.content-table tr:hover {
+    background-color: #D6EEEE;
+}
+
+.P1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: goldenrod;
+    font-size:  bold;
+    
+}
+.P2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(212, 196, 255);
+    font-style: italic;
+}
+.P3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+
+.content-table {
+    font-family: "Arial", serif;
+  }
+  .TheNameofmytable {
+    font-family: "Sofia", sans-serif;
+  }
+ .H1 {
+    font-family: "Sofia", sans-serif;
+ }
+ 
+ .font-effect-fire {
+    font-style: italic;
+    forced-color-adjust: red;
+    font-size: bold;
+ }
+ .font-effect-fire {
+    font-family: "Sofia", bold;
+ }
+ .font-effect-fire {
+    font-size: 50px;
+ }
+
+ .Speak4Ever {
+    background-color: black;
+    font-size: 50px;
+    font-family: "Sofia";
+    color: white;
+    text-align: center;
+    font-style: bold;
+    padding: 3px;
+    margin: 95px;
+ }
+ *{
+    padding: 0px;
+    margin: 2px;
+    text-decoration: none;
+  
+ }
+ .navbar {
+    background: rgb(80, 83, 116); font-family: calibri; padding-right: 15px; padding-left: 15px; 
+   
+ }
+
+ .navbar{
+   position: sticky; width: 100%;
+   top: 0px;
+ }
+ .navdiv {
+    display: flex; align-items: center; justify-content: space-between;
+ }
+ .logo a{
+    font-size: 35px; font-weight: 100; color: white;
+
+ }
+ li{
+    list-style: none; display: inline-block;
+ }
+ li a{
+    color: white; font-size: 18px;font-size: bold; margin-right: 25px;
+ }
+ button{
+    background-color: rgb(62, 167, 132); margin-left: 3px; border-radius: 12px; padding: 10px; width: 95px; 
+ }
+ button a{
+    color: white; font-weight: bold; font-size: 15px;
+ }
+ button :hover {
+    color: aqua;
+    transition: all;
+ }
+ .logo :hover{
+    color: red;
+    transition: all;
+ }
+ 
+div .font, .Speak4Ever{
+   background-color: black;
+   text-align: center; 
+   color: wheat;
+}
